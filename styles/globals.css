@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  .Button {
+    @apply text-sm inline-block pr-6
+      text-slate-300 transition-all hover:text-[#F7AB0A]/40 hover:text-white;
+  }
+}
+
+@layer components {
+  .Input {
+    @apply bg-slate-300 p-3;
+  }
+}
+
+@layer components {
+  .Label {
+    @apply bg-slate-500 p-3;
+  }
+}
